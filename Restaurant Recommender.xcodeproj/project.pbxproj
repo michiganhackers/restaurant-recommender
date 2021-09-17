@@ -13,6 +13,7 @@
 		E90BFC1826F40F97007429DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90BFC1726F40F97007429DE /* Assets.xcassets */; };
 		E90BFC1B26F40F97007429DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90BFC1A26F40F97007429DE /* Preview Assets.xcassets */; };
 		E90BFC1E26F40F97007429DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90BFC1C26F40F97007429DE /* LaunchScreen.storyboard */; };
+		E90BFC2626F41458007429DE /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90BFC2526F41458007429DE /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E90BFC1A26F40F97007429DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E90BFC1D26F40F97007429DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E90BFC1F26F40F97007429DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90BFC2526F41458007429DE /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E90BFC1C26F40F97007429DE /* LaunchScreen.storyboard */,
 				E90BFC1F26F40F97007429DE /* Info.plist */,
 				E90BFC1926F40F97007429DE /* Preview Content */,
+				E90BFC2526F41458007429DE /* Restaurant.swift */,
 			);
 			path = "Restaurant Recommender";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90BFC2626F41458007429DE /* Restaurant.swift in Sources */,
 				E90BFC1226F40F94007429DE /* AppDelegate.swift in Sources */,
 				E90BFC1426F40F94007429DE /* SceneDelegate.swift in Sources */,
 				E90BFC1626F40F94007429DE /* ContentView.swift in Sources */,
