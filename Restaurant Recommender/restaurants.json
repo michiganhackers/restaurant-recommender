@@ -1,0 +1,1417 @@
+
+[
+ {
+   "Id": 1,
+   "Name": "Frita Batidos",
+   "Price": 1,
+   "Rating": 4.6,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 11:00 PM",
+     "Tuesday: 11:00 AM \u2013 11:00 PM",
+     "Wednesday: 11:00 AM \u2013 11:00 PM",
+     "Thursday: 11:00 AM \u2013 12:00 AM",
+     "Friday: 11:00 AM \u2013 12:00 AM",
+     "Saturday: 11:00 AM \u2013 12:00 AM",
+     "Sunday: 11:00 AM \u2013 11:00 PM"
+   ],
+   "Address": "117 W Washington St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17347612882"
+ },
+ {
+   "Id": 2,
+   "Name": "Pacific Rim By Kana",
+   "Price": 1,
+   "Rating": 4.5,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 5:30 \u2013 9:30 PM",
+     "Tuesday: 5:30 \u2013 9:30 PM",
+     "Wednesday: 5:30 \u2013 9:30 PM",
+     "Thursday: 5:30 \u2013 9:30 PM",
+     "Friday: 5:30 \u2013 10:30 PM",
+     "Saturday: 5:30 \u2013 10:30 PM",
+     "Sunday: 5:00 \u2013 9:00 PM"
+   ],
+   "Address": "114 W Liberty Rd, Ann Arbor, MI 48104, USA",
+   "Phone": "+17346629303"
+ },
+ {
+   "Id": 3,
+   "Name": "Gandy Dancer",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 10:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 11:00 PM",
+     "Saturday: 3:30 \u2013 11:00 PM",
+     "Sunday: 10:00 AM \u2013 9:00 PM"
+   ],
+   "Address": "401 Depot St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17347690592"
+ },
+ {
+   "Id": 4,
+   "Name": "Sava's",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 9:00 AM \u2013 12:00 AM",
+     "Tuesday: 9:00 AM \u2013 12:00 AM",
+     "Wednesday: 9:00 AM \u2013 12:00 AM",
+     "Thursday: 9:00 AM \u2013 12:00 AM",
+     "Friday: 9:00 AM \u2013 12:00 AM",
+     "Saturday: 8:00 AM \u2013 12:00 AM",
+     "Sunday: 8:00 AM \u2013 12:00 AM"
+   ],
+   "Address": "216 S State St, Ann Arbor, MI 48109, USA",
+   "Phone": "+17346232233"
+ },
+ {
+   "Id": 5,
+   "Name": "Gratzi Ann Arbor",
+   "Price": 2,
+   "Rating": 4.1,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 4:00 \u2013 10:00 PM",
+     "Tuesday: 4:00 \u2013 10:00 PM",
+     "Wednesday: 4:00 \u2013 10:00 PM",
+     "Thursday: 4:00 \u2013 10:00 PM",
+     "Friday: 4:00 \u2013 11:00 PM",
+     "Saturday: 11:00 AM \u2013 11:00 PM",
+     "Sunday: 10:30 AM \u2013 9:00 PM"
+   ],
+   "Address": "326 S Main St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17346635555"
+ },
+ {
+   "Id": 6,
+   "Name": "Angelo's",
+   "Price": 2,
+   "Rating": 4.4,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 6:00 AM \u2013 3:00 PM",
+     "Tuesday: 6:00 AM \u2013 3:00 PM",
+     "Wednesday: 6:00 AM \u2013 3:00 PM",
+     "Thursday: 6:00 AM \u2013 3:00 PM",
+     "Friday: 6:00 AM \u2013 3:00 PM",
+     "Saturday: 6:00 AM \u2013 2:00 PM",
+     "Sunday: 7:00 AM \u2013 2:00 PM"
+   ],
+   "Address": "1100 Catherine St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17347618996"
+ },
+ {
+   "Id": 7,
+   "Name": "Caf\u00e9 Zola",
+   "Price": 2,
+   "Rating": 4,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 7:00 AM \u2013 10:00 PM",
+     "Tuesday: 7:00 AM \u2013 10:00 PM",
+     "Wednesday: 7:00 AM \u2013 10:00 PM",
+     "Thursday: 7:00 AM \u2013 10:00 PM",
+     "Friday: 7:00 AM \u2013 11:00 PM",
+     "Saturday: 7:00 AM \u2013 11:00 PM",
+     "Sunday: 7:00 AM \u2013 10:00 PM"
+   ],
+   "Address": "112 W Washington St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17347692020"
+ },
+ {
+   "Id": 8,
+   "Name": "Vinology",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 4:00 \u2013 11:00 PM",
+     "Tuesday: 4:00 \u2013 11:00 PM",
+     "Wednesday: 4:00 \u2013 11:00 PM",
+     "Thursday: 4:00 \u2013 11:00 PM",
+     "Friday: 4:00 PM \u2013 12:00 AM",
+     "Saturday: 10:00 AM \u2013 12:00 AM",
+     "Sunday: 10:00 AM \u2013 10:00 PM"
+   ],
+   "Address": "110 S Main St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17342229841"
+ },
+ {
+   "Id": 9,
+   "Name": "Taste Kitchen",
+   "Price": 2,
+   "Rating": 4.7,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 5:00 \u2013 10:00 PM",
+     "Tuesday: 5:00 \u2013 10:00 PM",
+     "Wednesday: 5:00 \u2013 10:00 PM",
+     "Thursday: 5:00 \u2013 10:00 PM",
+     "Friday: 5:00 \u2013 11:00 PM",
+     "Saturday: 5:00 \u2013 11:00 PM",
+     "Sunday: 5:00 \u2013 9:00 PM"
+   ],
+   "Address": "521 E Liberty St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17343694241"
+ },
+ {
+   "Id": 10,
+   "Name": "Mani Osteria and Bar",
+   "Price": 2,
+   "Rating": 4.5,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: Closed",
+     "Tuesday: 11:30 AM \u2013 10:00 PM",
+     "Wednesday: 11:30 AM \u2013 10:00 PM",
+     "Thursday: 11:30 AM \u2013 10:00 PM",
+     "Friday: 11:30 AM \u2013 11:00 PM",
+     "Saturday: 12:00 \u2013 11:00 PM",
+     "Sunday: 11:00 AM \u2013 9:00 PM"
+   ],
+   "Address": "341 E Liberty St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17347696700"
+ },
+ {
+   "Id": 11,
+   "Name": "The Earle",
+   "Price": 2,
+   "Rating": 4.4,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 5:00 \u2013 9:00 PM",
+     "Tuesday: 5:00 \u2013 9:00 PM",
+     "Wednesday: 5:00 \u2013 9:00 PM",
+     "Thursday: 5:00 \u2013 9:00 PM",
+     "Friday: 5:00 \u2013 11:00 PM",
+     "Saturday: 5:45 \u2013 11:00 PM",
+     "Sunday: 5:00 \u2013 8:00 PM"
+   ],
+   "Address": "121 W Washington St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17349940211"
+ },
+ {
+   "Id": 12,
+   "Name": "Jerusalem Garden",
+   "Price": 2,
+   "Rating": 4.5,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 9:00 PM",
+     "Tuesday: 11:00 AM \u2013 9:00 PM",
+     "Wednesday: 11:00 AM \u2013 9:00 PM",
+     "Thursday: 11:00 AM \u2013 9:00 PM",
+     "Friday: 11:00 AM \u2013 9:30 PM",
+     "Saturday: 11:00 AM \u2013 9:30 PM",
+     "Sunday: Closed"
+   ],
+   "Address": "314 E Liberty St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17349955060"
+ },
+ {
+   "Id": 13,
+   "Name": "Zingerman's Roadhouse",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "cafe",
+     "bar",
+     "store",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 7:00 AM \u2013 10:00 PM",
+     "Tuesday: 7:00 AM \u2013 10:00 PM",
+     "Wednesday: 7:00 AM \u2013 10:00 PM",
+     "Thursday: 7:00 AM \u2013 10:00 PM",
+     "Friday: 7:00 AM \u2013 11:00 PM",
+     "Saturday: 9:00 AM \u2013 11:00 PM",
+     "Sunday: 9:00 AM \u2013 9:00 PM"
+   ],
+   "Address": "2501 Jackson Ave, Ann Arbor, MI 48103, USA",
+   "Phone": "+17346633663"
+ },
+ {
+   "Id": 14,
+   "Name": "Mediterrano",
+   "Price": 2,
+   "Rating": 4,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 10:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 10:00 PM",
+     "Saturday: 12:00 \u2013 10:00 PM",
+     "Sunday: 12:00 \u2013 9:00 PM"
+   ],
+   "Address": "2900 S State St, Ann Arbor, MI 48108, USA",
+   "Phone": "+17343329700"
+ },
+ {
+   "Id": 15,
+   "Name": "Real Seafood Company Ann Arbor",
+   "Price": 3,
+   "Rating": 4.2,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:30 AM \u2013 10:00 PM",
+     "Tuesday: 11:30 AM \u2013 10:00 PM",
+     "Wednesday: 11:30 AM \u2013 10:00 PM",
+     "Thursday: 11:30 AM \u2013 10:00 PM",
+     "Friday: 11:30 AM \u2013 11:00 PM",
+     "Saturday: 11:30 AM \u2013 11:00 PM",
+     "Sunday: 1:00 \u2013 9:00 PM"
+   ],
+   "Address": "341 S Main St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17347695960"
+ },
+ {
+   "Id": 16,
+   "Name": "The Lunch Room",
+   "Price": 3,
+   "Rating": 4.7,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 9:00 PM",
+     "Tuesday: 11:00 AM \u2013 9:00 PM",
+     "Wednesday: 11:00 AM \u2013 9:00 PM",
+     "Thursday: 11:00 AM \u2013 9:00 PM",
+     "Friday: 11:00 AM \u2013 9:00 PM",
+     "Saturday: 11:00 AM \u2013 9:00 PM",
+     "Sunday: 10:00 AM \u2013 3:00 PM"
+   ],
+   "Address": "407 N 5th Ave, Ann Arbor, MI 48104, USA",
+   "Phone": "+17342248859"
+ },
+ {
+   "Id": 17,
+   "Name": "The Original Cottage Inn",
+   "Price": 3,
+   "Rating": 4.4,
+   "Types": [
+     "bar",
+     "meal_takeaway",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 10:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 11:00 PM",
+     "Friday: 11:00 AM \u2013 11:00 PM",
+     "Saturday: 11:00 AM \u2013 11:00 PM",
+     "Sunday: 11:00 AM \u2013 9:00 PM"
+   ],
+   "Address": "512 E William St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17346633379"
+ },
+ {
+   "Id": 18,
+   "Name": "Afternoon Delight",
+   "Price": 2,
+   "Rating": 4.5,
+   "Types": [
+     "cafe",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 8:00 AM \u2013 3:00 PM",
+     "Tuesday: 8:00 AM \u2013 3:00 PM",
+     "Wednesday: 8:00 AM \u2013 3:00 PM",
+     "Thursday: 8:00 AM \u2013 3:00 PM",
+     "Friday: 8:00 AM \u2013 3:00 PM",
+     "Saturday: 8:00 AM \u2013 3:00 PM",
+     "Sunday: 8:30 AM \u2013 3:00 PM"
+   ],
+   "Address": "251 E Liberty St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17346657513"
+ },
+ {
+   "Id": 19,
+   "Name": "Aventura",
+   "Price": 2,
+   "Rating": 4.4,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 3:00 PM \u2013 12:00 AM",
+     "Tuesday: 3:00 PM \u2013 12:00 AM",
+     "Wednesday: 3:00 PM \u2013 12:00 AM",
+     "Thursday: 3:00 PM \u2013 12:00 AM",
+     "Friday: 3:00 PM \u2013 12:00 AM",
+     "Saturday: 12:00 PM \u2013 12:00 AM",
+     "Sunday: 12:00 PM \u2013 12:00 AM"
+   ],
+   "Address": "216 E Washington St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17343693153"
+ },
+ {
+   "Id": 20,
+   "Name": "NeoPapalis",
+   "Price": 2,
+   "Rating": 4.6,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 11:00 PM",
+     "Tuesday: 11:00 AM \u2013 11:00 PM",
+     "Wednesday: 11:00 AM \u2013 11:00 PM",
+     "Thursday: 11:00 AM \u2013 11:00 PM",
+     "Friday: 11:00 AM \u2013 11:00 PM",
+     "Saturday: 11:00 AM \u2013 11:00 PM",
+     "Sunday: 11:00 AM \u2013 11:00 PM"
+   ],
+   "Address": "500 E William St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17349292227"
+ },
+ {
+   "Id": 21,
+   "Name": "Blue Tractor BBQ & Brewery",
+   "Price": 2,
+   "Rating": 4.2,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 12:00 AM",
+     "Tuesday: 11:00 AM \u2013 12:00 AM",
+     "Wednesday: 11:00 AM \u2013 12:00 AM",
+     "Thursday: 11:00 AM \u2013 2:00 AM",
+     "Friday: 11:00 AM \u2013 2:00 AM",
+     "Saturday: 11:00 AM \u2013 2:00 AM",
+     "Sunday: 12:00 PM \u2013 12:00 AM"
+   ],
+   "Address": "207 E Washington St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17342224095"
+ },
+ {
+   "Id": 22,
+   "Name": "Weber's Restaurant & Boutique Hotel",
+   "Price": 2,
+   "Rating": 4.4,
+   "Types": [
+     "lodging",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 6:30 AM \u2013 1:00 AM",
+     "Tuesday: 6:30 AM \u2013 1:00 AM",
+     "Wednesday: 6:30 AM \u2013 1:00 AM",
+     "Thursday: 6:30 AM \u2013 1:00 AM",
+     "Friday: 6:30 AM \u2013 1:00 AM",
+     "Saturday: 6:30 AM \u2013 1:00 AM",
+     "Sunday: 8:30 AM \u2013 11:30 PM"
+   ],
+   "Address": "3050 Jackson Ave, Ann Arbor, MI 48103, USA",
+   "Phone": "+17347692500"
+ },
+ {
+   "Id": 23,
+   "Name": "Ruth's Chris Steak House",
+   "Price": 2,
+   "Rating": 4.5,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 4:30 \u2013 11:00 PM",
+     "Tuesday: 4:30 \u2013 11:00 PM",
+     "Wednesday: 4:30 \u2013 11:00 PM",
+     "Thursday: 4:30 \u2013 11:00 PM",
+     "Friday: 4:30 \u2013 11:00 PM",
+     "Saturday: 4:30 \u2013 11:00 PM",
+     "Sunday: 4:00 \u2013 10:00 PM"
+   ],
+   "Address": "314 S 4th Ave, Ann Arbor, MI 48104, USA",
+   "Phone": "+17345855155"
+ },
+ {
+   "Id": 24,
+   "Name": "Logan Restaurant",
+   "Price": 2,
+   "Rating": 4.1,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: Closed",
+     "Tuesday: 5:00 \u2013 10:00 PM",
+     "Wednesday: 5:00 \u2013 10:00 PM",
+     "Thursday: 5:00 \u2013 10:00 PM",
+     "Friday: 5:00 \u2013 10:00 PM",
+     "Saturday: 5:00 \u2013 10:00 PM",
+     "Sunday: Closed"
+   ],
+   "Address": "115 W Washington St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17343272312"
+ },
+ {
+   "Id": 25,
+   "Name": "Northside Grill",
+   "Price": 2,
+   "Rating": 4.4,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 7:00 AM \u2013 3:00 PM",
+     "Tuesday: 7:00 AM \u2013 3:00 PM",
+     "Wednesday: 7:00 AM \u2013 3:00 PM",
+     "Thursday: 7:00 AM \u2013 3:00 PM",
+     "Friday: 7:00 AM \u2013 3:00 PM",
+     "Saturday: 7:00 AM \u2013 3:00 PM",
+     "Sunday: 7:00 AM \u2013 3:00 PM"
+   ],
+   "Address": "1015 Broadway St, Ann Arbor, MI 48105, USA",
+   "Phone": "+17349950965"
+ },
+ {
+   "Id": 26,
+   "Name": "Mikette Bistro and Bar",
+   "Price": 2,
+   "Rating": 4.5,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: Closed",
+     "Tuesday: 11:30 AM \u2013 10:00 PM",
+     "Wednesday: 11:30 AM \u2013 10:00 PM",
+     "Thursday: 11:30 AM \u2013 10:00 PM",
+     "Friday: 11:30 AM \u2013 10:00 PM",
+     "Saturday: 12:00 \u2013 10:00 PM",
+     "Sunday: 11:00 AM \u2013 9:00 PM"
+   ],
+   "Address": "1759 Plymouth Rd, Ann Arbor, MI 48105, USA",
+   "Phone": "+17344364363"
+ },
+ {
+   "Id": 27,
+   "Name": "Knight's Steakhouse",
+   "Price": 2,
+   "Rating": 4.4,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 11:00 PM",
+     "Tuesday: 11:00 AM \u2013 11:00 PM",
+     "Wednesday: 11:00 AM \u2013 12:00 AM",
+     "Thursday: 11:00 AM \u2013 12:00 AM",
+     "Friday: 11:00 AM \u2013 12:00 AM",
+     "Saturday: 11:00 AM \u2013 12:00 AM",
+     "Sunday: 11:00 AM \u2013 11:00 PM"
+   ],
+   "Address": "600 E Liberty St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17348876899"
+ },
+ {
+   "Id": 28,
+   "Name": "Bell's Diner",
+   "Price": 2,
+   "Rating": 4.5,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 6:30 AM \u2013 8:30 PM",
+     "Tuesday: 6:30 AM \u2013 8:30 PM",
+     "Wednesday: 6:30 AM \u2013 8:30 PM",
+     "Thursday: 6:30 AM \u2013 8:30 PM",
+     "Friday: 6:30 AM \u2013 8:30 PM",
+     "Saturday: 6:30 AM \u2013 8:30 PM",
+     "Sunday: 8:00 AM \u2013 8:30 PM"
+   ],
+   "Address": "2167 W Stadium Blvd, Ann Arbor, MI 48103, USA",
+   "Phone": "+17349950226"
+ },
+ {
+   "Id": 29,
+   "Name": "Carson's American Bistro",
+   "Price": 2,
+   "Rating": 3.9,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 10:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 11:00 PM",
+     "Saturday: 4:00 \u2013 11:00 PM",
+     "Sunday: 12:00 \u2013 9:00 PM"
+   ],
+   "Address": "2000 Commonwealth Blvd, Ann Arbor, MI 48105, USA",
+   "Phone": "+17346220533"
+ },
+ {
+   "Id": 30,
+   "Name": "West End Grill",
+   "Price": 3,
+   "Rating": 4.4,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: Closed",
+     "Tuesday: 5:00 \u2013 9:30 PM",
+     "Wednesday: 5:00 \u2013 9:30 PM",
+     "Thursday: 5:00 \u2013 9:30 PM",
+     "Friday: 5:00 \u2013 9:30 PM",
+     "Saturday: 5:00 \u2013 9:30 PM",
+     "Sunday: Closed"
+   ],
+   "Address": "120 W Liberty Rd, Ann Arbor, MI 48104, USA",
+   "Phone": "+17347476260"
+ },
+ {
+   "Id": 31,
+   "Name": "Melange",
+   "Price": 2,
+   "Rating": 4.1,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 5:00 \u2013 10:00 PM",
+     "Tuesday: 5:00 \u2013 10:00 PM",
+     "Wednesday: 5:00 \u2013 10:00 PM",
+     "Thursday: 5:00 \u2013 10:00 PM",
+     "Friday: 5:00 \u2013 11:00 PM",
+     "Saturday: 5:00 \u2013 11:00 PM",
+     "Sunday: Closed"
+   ],
+   "Address": "312 S Main St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17342220202"
+ },
+ {
+   "Id": 32,
+   "Name": "Slurping Turtle",
+   "Price": 2,
+   "Rating": 4.4,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:30 AM \u2013 10:00 PM",
+     "Tuesday: 11:30 AM \u2013 10:00 PM",
+     "Wednesday: 11:30 AM \u2013 10:00 PM",
+     "Thursday: 11:30 AM \u2013 10:00 PM",
+     "Friday: 11:30 AM \u2013 11:00 PM",
+     "Saturday: 11:30 AM \u2013 11:00 PM",
+     "Sunday: 11:30 AM \u2013 10:00 PM"
+   ],
+   "Address": "608 E Liberty St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17348876868"
+ },
+ {
+   "Id": 33,
+   "Name": "Grange Kitchen & Bar",
+   "Price": 2,
+   "Rating": 4.2,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 5:00 \u2013 11:00 PM",
+     "Tuesday: 5:00 \u2013 11:00 PM",
+     "Wednesday: 5:00 \u2013 11:00 PM",
+     "Thursday: 5:00 \u2013 11:00 PM",
+     "Friday: 5:00 PM \u2013 1:00 AM",
+     "Saturday: 5:00 PM \u2013 1:00 AM",
+     "Sunday: 10:00 AM \u2013 3:00 PM"
+   ],
+   "Address": "118 W Liberty Rd, Ann Arbor, MI 48104, USA",
+   "Phone": "+17349952107"
+ },
+ {
+   "Id": 34,
+   "Name": "Ann Arbor Restaurant Week",
+   "Price": 2,
+   "Rating": 4.2,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 5:00 \u2013 11:00 PM",
+     "Tuesday: 5:00 \u2013 11:00 PM",
+     "Wednesday: 5:00 \u2013 11:00 PM",
+     "Thursday: 5:00 \u2013 11:00 PM",
+     "Friday: 5:00 PM \u2013 1:00 AM",
+     "Saturday: 5:00 PM \u2013 1:00 AM",
+     "Sunday: 10:00 AM \u2013 3:00 PM"
+   ],
+   "Address": "15 Research Dr, Ann Arbor, MI 48103, USA",
+   "Phone": "+17346687112"
+ },
+ {
+   "Id": 35,
+   "Name": "Black Pearl Ann Arbor",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 5:00 PM \u2013 12:00 AM",
+     "Tuesday: 5:00 PM \u2013 12:00 AM",
+     "Wednesday: 5:00 PM \u2013 12:00 AM",
+     "Thursday: 5:00 PM \u2013 1:00 AM",
+     "Friday: 5:00 PM \u2013 1:00 AM",
+     "Saturday: 5:00 PM \u2013 1:00 AM",
+     "Sunday: 5:00 PM \u2013 12:00 AM"
+   ],
+   "Address": "302 S Main St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17342220400"
+ },
+ {
+   "Id": 36,
+   "Name": "Totoro",
+   "Price": 2,
+   "Rating": 4.4,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:30 AM \u2013 10:00 PM",
+     "Tuesday: 11:30 AM \u2013 10:00 PM",
+     "Wednesday: 11:30 AM \u2013 10:00 PM",
+     "Thursday: 11:30 AM \u2013 10:00 PM",
+     "Friday: 11:30 AM \u2013 10:00 PM",
+     "Saturday: 11:30 AM \u2013 10:00 PM",
+     "Sunday: 12:00 \u2013 10:00 PM"
+   ],
+   "Address": "2031, 215 S State St, Ann Arbor, MI 48104, United States",
+   "Phone": "+17343023511"
+ },
+ {
+   "Id": 37,
+   "Name": "Paesano Restaurant",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 10:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 11:00 PM",
+     "Saturday: 12:00 \u2013 11:00 PM",
+     "Sunday: 12:00 \u2013 10:00 PM"
+   ],
+   "Address": "3411 Washtenaw Ave, Ann Arbor, MI 48104, USA",
+   "Phone": "+17349710484"
+ },
+ {
+   "Id": 38,
+   "Name": "Spencer",
+   "Price": 2,
+   "Rating": 4.7,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 5:00 \u2013 10:00 PM",
+     "Tuesday: Closed",
+     "Wednesday: 5:00 \u2013 10:00 PM",
+     "Thursday: 5:00 \u2013 10:00 PM",
+     "Friday: 5:00 \u2013 11:00 PM",
+     "Saturday: 10:00 AM \u2013 2:00 PM, 5:00 \u2013 11:00 PM",
+     "Sunday: 10:00 AM \u2013 2:00 PM, 5:00 \u2013 10:00 PM"
+   ],
+   "Address": "113 E Liberty St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17343693979"
+ },
+ {
+   "Id": 39,
+   "Name": "Olive Garden Italian Restaurant",
+   "Price": 2,
+   "Rating": 4,
+   "Types": [
+     "bar",
+     "meal_takeaway",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 10:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 11:00 PM",
+     "Saturday: 11:00 AM \u2013 11:00 PM",
+     "Sunday: 11:00 AM \u2013 10:00 PM"
+   ],
+   "Address": "445 E Eisenhower Pkwy, Ann Arbor, MI 48108, USA",
+   "Phone": "+17346636875"
+ },
+ {
+   "Id": 40,
+   "Name": "Miss Kim",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: Closed",
+     "Tuesday: 11:00 AM \u2013 2:30 PM, 5:00 \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 2:30 PM, 5:00 \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 2:30 PM, 5:00 \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 2:30 PM, 5:00 \u2013 10:00 PM",
+     "Saturday: 11:00 AM \u2013 2:30 PM, 5:00 \u2013 10:00 PM",
+     "Sunday: 11:00 AM \u2013 2:30 PM, 5:00 \u2013 9:00 PM"
+   ],
+   "Address": "415 N 5th Ave, Ann Arbor, MI 48104, USA",
+   "Phone": "+17342750099"
+ },
+ {
+   "Id": 41,
+   "Name": "BRAVO Cucina Italiana",
+   "Price": 2,
+   "Rating": 4,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 10:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 10:00 PM",
+     "Saturday: 11:00 AM \u2013 10:00 PM",
+     "Sunday: 11:00 AM \u2013 9:00 PM"
+   ],
+   "Address": "760 Briarwood Cir, Ann Arbor, MI 48108, USA",
+   "Phone": "+17347476200"
+ },
+ {
+   "Id": 42,
+   "Name": "Bigalora Wood Fired Cucina",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 10:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 10:00 PM",
+     "Friday: 10:00 AM \u2013 11:00 PM",
+     "Saturday: 10:00 AM \u2013 11:00 PM",
+     "Sunday: 10:00 AM \u2013 10:00 PM"
+   ],
+   "Address": "3050 Washtenaw Ave Suite 112, Ann Arbor, MI 48104, USA",
+   "Phone": "+17349712442"
+ },
+ {
+   "Id": 43,
+   "Name": "Seva Ann Arbor",
+   "Price": 2,
+   "Rating": 4.5,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 9:00 PM",
+     "Tuesday: 11:00 AM \u2013 9:00 PM",
+     "Wednesday: 11:00 AM \u2013 9:00 PM",
+     "Thursday: 11:00 AM \u2013 9:00 PM",
+     "Friday: 11:00 AM \u2013 9:00 PM",
+     "Saturday: 11:00 AM \u2013 9:00 PM",
+     "Sunday: 11:00 AM \u2013 9:00 PM"
+   ],
+   "Address": "2541 Jackson Ave, Ann Arbor, MI 48103, USA",
+   "Phone": "+17346621111"
+ },
+ {
+   "Id": 44,
+   "Name": "Carlyle Grill",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 10:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 11:00 PM",
+     "Saturday: 11:00 AM \u2013 11:00 PM",
+     "Sunday: 11:00 AM \u2013 10:00 PM"
+   ],
+   "Address": "3660 Jackson Rd, Ann Arbor, MI 48103, USA",
+   "Phone": "+17342139800"
+ },
+ {
+   "Id": 45,
+   "Name": "Guy Hollerin's Ann Arbor Bar & Grill",
+   "Price": 2,
+   "Rating": 3.5,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 6:30 AM \u2013 11:00 PM",
+     "Tuesday: 6:30 AM \u2013 11:00 PM",
+     "Wednesday: 6:30 AM \u2013 11:00 PM",
+     "Thursday: 6:30 AM \u2013 11:00 PM",
+     "Friday: 6:30 AM \u2013 12:00 AM",
+     "Saturday: 7:00 AM \u2013 12:00 AM",
+     "Sunday: 7:00 AM \u2013 10:00 PM"
+   ],
+   "Address": "3600 Plymouth Rd, Ann Arbor, MI 48105, USA",
+   "Phone": "+17347694323"
+ },
+ {
+   "Id": 46,
+   "Name": "Palm Palace",
+   "Price": 2,
+   "Rating": 4.5,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 10:00 AM \u2013 10:00 PM",
+     "Tuesday: 10:00 AM \u2013 10:00 PM",
+     "Wednesday: 10:00 AM \u2013 10:00 PM",
+     "Thursday: 10:00 AM \u2013 10:00 PM",
+     "Friday: 10:00 AM \u2013 11:00 PM",
+     "Saturday: 10:00 AM \u2013 11:00 PM",
+     "Sunday: 10:00 AM \u2013 10:00 PM"
+   ],
+   "Address": "2370 Carpenter Rd, Ann Arbor, MI 48108, USA",
+   "Phone": "+17346060706"
+ },
+ {
+   "Id": 47,
+   "Name": "Cardamom Restaurant",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: Closed",
+     "Tuesday: 11:00 AM \u2013 3:00 PM, 5:00 \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 3:00 PM, 5:00 \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 3:00 PM, 5:00 \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 3:00 PM, 5:00 \u2013 10:30 PM",
+     "Saturday: 11:00 AM \u2013 3:00 PM, 5:00 \u2013 10:30 PM",
+     "Sunday: 11:00 AM \u2013 3:00 PM, 5:00 \u2013 10:00 PM"
+   ],
+   "Address": "1739 Plymouth Rd, Ann Arbor, MI 48104, USA",
+   "Phone": "+17346622877"
+ },
+ {
+   "Id": 48,
+   "Name": "Heidelberg Restaurant",
+   "Price": 2,
+   "Rating": 4,
+   "Types": [
+     "bar",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 2:00 AM",
+     "Tuesday: 11:00 AM \u2013 2:00 AM",
+     "Wednesday: 11:00 AM \u2013 2:00 AM",
+     "Thursday: 11:00 AM \u2013 2:00 AM",
+     "Friday: 11:00 AM \u2013 2:00 AM",
+     "Saturday: 11:00 AM \u2013 2:00 AM",
+     "Sunday: 4:00 PM \u2013 2:00 AM"
+   ],
+   "Address": "215 N Main St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17346637758"
+ },
+ {
+   "Id": 49,
+   "Name": "Frank's Restaurant",
+   "Price": 2,
+   "Rating": 4.4,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 7:00 AM \u2013 3:00 PM",
+     "Tuesday: 7:00 AM \u2013 3:00 PM",
+     "Wednesday: 7:00 AM \u2013 3:00 PM",
+     "Thursday: 7:00 AM \u2013 3:00 PM",
+     "Friday: 7:00 AM \u2013 3:00 PM",
+     "Saturday: 7:00 AM \u2013 4:00 PM",
+     "Sunday: 8:00 AM \u2013 4:00 PM"
+   ],
+   "Address": "334 Maynard St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17347615699"
+ },
+ {
+   "Id": 50,
+   "Name": "Marnee Thai Restaurant",
+   "Price": 2,
+   "Rating": 3.7,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:30 AM \u2013 2:00 PM, 5:00 \u2013 9:00 PM",
+     "Tuesday: 11:30 AM \u2013 2:00 PM, 5:00 \u2013 9:00 PM",
+     "Wednesday: 11:30 AM \u2013 2:00 PM, 5:00 \u2013 9:00 PM",
+     "Thursday: 11:30 AM \u2013 2:00 PM, 5:00 \u2013 9:00 PM",
+     "Friday: 11:30 AM \u2013 2:00 PM, 5:00 \u2013 9:00 PM",
+     "Saturday: 11:30 AM \u2013 2:00 PM, 5:00 \u2013 9:00 PM",
+     "Sunday: 4:00 \u2013 9:00 PM"
+   ],
+   "Address": "414 S Main St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17349299933"
+ },
+ {
+   "Id": 51,
+   "Name": "Krazy Jim's Blimpy Burger",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 12:00 \u2013 8:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 10:00 PM",
+     "Saturday: 11:00 AM \u2013 10:00 PM",
+     "Sunday: 12:00 \u2013 8:00 PM"
+   ],
+   "Address": "304 S Ashley St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17346634590"
+ },
+ {
+   "Id": 52,
+   "Name": "Evergreen Restaurant",
+   "Price": 2,
+   "Rating": 3.8,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 10:00 PM",
+     "Tuesday: 11:00 AM \u2013 10:00 PM",
+     "Wednesday: 11:00 AM \u2013 10:00 PM",
+     "Thursday: 11:00 AM \u2013 10:00 PM",
+     "Friday: 11:00 AM \u2013 10:30 PM",
+     "Saturday: 11:00 AM \u2013 10:30 PM",
+     "Sunday: 11:00 AM \u2013 10:00 PM"
+   ],
+   "Address": "2771 Plymouth Rd, Ann Arbor, MI 48105, USA",
+   "Phone": "+17347692748"
+ },
+ {
+   "Id": 53,
+   "Name": "Shalimar",
+   "Price": 2,
+   "Rating": 4,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:30 AM \u2013 2:30 PM, 5:00 \u2013 9:30 PM",
+     "Tuesday: 11:30 AM \u2013 2:30 PM, 5:00 \u2013 9:30 PM",
+     "Wednesday: 11:30 AM \u2013 2:30 PM, 5:00 \u2013 9:30 PM",
+     "Thursday: 11:30 AM \u2013 2:30 PM, 5:00 \u2013 9:30 PM",
+     "Friday: 11:30 AM \u2013 2:30 PM, 5:00 \u2013 10:30 PM",
+     "Saturday: 12:00 \u2013 3:00 PM, 5:00 \u2013 10:30 PM",
+     "Sunday: 12:00 \u2013 3:00 PM, 5:00 \u2013 9:30 PM"
+   ],
+   "Address": "307 S Main St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17346631500"
+ },
+ {
+   "Id": 54,
+   "Name": "Yotsuba Japanese Restaurant",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:30 AM \u2013 10:00 PM",
+     "Tuesday: 11:30 AM \u2013 10:00 PM",
+     "Wednesday: 11:30 AM \u2013 10:00 PM",
+     "Thursday: 11:30 AM \u2013 10:00 PM",
+     "Friday: 11:30 AM \u2013 10:00 PM",
+     "Saturday: 11:30 AM \u2013 10:00 PM",
+     "Sunday: 12:00 \u2013 9:00 PM"
+   ],
+   "Address": "2222 Hogback Rd, Ann Arbor, MI 48105, USA",
+   "Phone": "+17349715168"
+ },
+ {
+   "Id": 55,
+   "Name": "Seoul Street",
+   "Price": 2,
+   "Rating": 3.8,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 9:45 PM",
+     "Tuesday: 11:00 AM \u2013 9:45 PM",
+     "Wednesday: 11:00 AM \u2013 9:45 PM",
+     "Thursday: 11:00 AM \u2013 9:45 PM",
+     "Friday: 11:00 AM \u2013 10:15 PM",
+     "Saturday: 11:30 AM \u2013 10:15 PM",
+     "Sunday: 11:30 AM \u2013 9:45 PM"
+   ],
+   "Address": "1771 Plymouth Rd, Ann Arbor, MI 48105, USA",
+   "Phone": "+17347190085"
+ },
+ {
+   "Id": 56,
+   "Name": "Miki Japanese Restaurant",
+   "Price": 2,
+   "Rating": 4.3,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:30 AM \u2013 2:00 PM, 4:30 \u2013 9:30 PM",
+     "Tuesday: 11:30 AM \u2013 2:00 PM, 4:30 \u2013 9:30 PM",
+     "Wednesday: 11:30 AM \u2013 2:00 PM, 4:30 \u2013 9:30 PM",
+     "Thursday: 11:30 AM \u2013 2:00 PM, 4:30 \u2013 10:15 PM",
+     "Friday: 11:30 AM \u2013 2:00 PM, 4:30 \u2013 10:15 PM",
+     "Saturday: 12:00 \u2013 10:15 PM",
+     "Sunday: 4:00 \u2013 9:15 PM"
+   ],
+   "Address": "1304, 106 S 1st St, Ann Arbor, MI 48104, United States",
+   "Phone": "+17346658226"
+ },
+ {
+   "Id": 57,
+   "Name": "Relish Restaurant",
+   "Price": 2,
+   "Rating": 4.4,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 6:30 AM \u2013 10:00 PM",
+     "Tuesday: 6:30 AM \u2013 10:00 PM",
+     "Wednesday: 6:30 AM \u2013 10:00 PM",
+     "Thursday: 6:30 AM \u2013 10:00 PM",
+     "Friday: 6:30 AM \u2013 10:00 PM",
+     "Saturday: 6:30 AM \u2013 10:00 PM",
+     "Sunday: 6:30 AM \u2013 10:00 PM"
+   ],
+   "Address": "610 Hilton Blvd, Ann Arbor, MI 48108, USA",
+   "Phone": "+17347617800"
+ },
+ {
+   "Id": 58,
+   "Name": "Amadeus Restaurant",
+   "Price": 3,
+   "Rating": 4.4,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: Closed",
+     "Tuesday: 11:30 AM \u2013 2:30 PM, 5:00 \u2013 10:00 PM",
+     "Wednesday: 11:30 AM \u2013 2:30 PM, 5:00 \u2013 10:00 PM",
+     "Thursday: 11:30 AM \u2013 2:30 PM, 5:00 \u2013 10:00 PM",
+     "Friday: 11:30 AM \u2013 2:30 PM, 5:00 \u2013 11:00 PM",
+     "Saturday: 11:30 AM \u2013 11:00 PM",
+     "Sunday: 11:00 AM \u2013 3:00 PM"
+   ],
+   "Address": "122 E Washington St, Ann Arbor, MI 48104, USA",
+   "Phone": "+17346658767"
+ },
+ {
+   "Id": 59,
+   "Name": "Kang's Korean Restaurant",
+   "Price": 3,
+   "Rating": 4.3,
+   "Types": [
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 11:00 AM \u2013 9:00 PM",
+     "Tuesday: 11:00 AM \u2013 9:00 PM",
+     "Wednesday: 11:00 AM \u2013 9:00 PM",
+     "Thursday: 11:00 AM \u2013 9:00 PM",
+     "Friday: 11:00 AM \u2013 9:00 PM",
+     "Saturday: 11:00 AM \u2013 9:00 PM",
+     "Sunday: 11:00 AM \u2013 9:00 PM"
+   ],
+   "Address": "1327 S University Ave, Ann Arbor, MI 48104, USA",
+   "Phone": "+17347611327"
+ },
+ {
+   "Id": 60,
+   "Name": "Chela\u2019s Restaurant & Taqueria",
+   "Price": 3,
+   "Rating": 4.6,
+   "Types": [
+     "meal_delivery",
+     "restaurant",
+     "food",
+     "point_of_interest",
+     "establishment"
+   ],
+   "Hours": [
+     "Monday: 10:30 AM \u2013 9:00 PM",
+     "Tuesday: 10:30 AM \u2013 9:00 PM",
+     "Wednesday: 10:30 AM \u2013 9:00 PM",
+     "Thursday: 10:30 AM \u2013 9:00 PM",
+     "Friday: 10:30 AM \u2013 9:00 PM",
+     "Saturday: 10:30 AM \u2013 9:00 PM",
+     "Sunday: 10:30 AM \u2013 8:00 PM"
+   ],
+   "Address": "693 S Maple Rd, Ann Arbor, MI 48103, USA",
+   "Phone": "+17343326055"
+ }
+]
+
