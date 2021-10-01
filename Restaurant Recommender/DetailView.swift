@@ -14,9 +14,29 @@ struct DetailView: View {
     
     
     var body: some View {
+//        LocationMapView(address: restaurant.Address)
         ScrollView{
-            VStack{
+            VStack(alignment: .leading){
+                LocationMapView(address: restaurant.Address).ignoresSafeArea(edges: .top)
+                    .frame(height: 300)
                 Text(restaurant.Name)
+                    .padding(30)
+                    .font(.title)
+                VStack(alignment: .leading, spacing: 10){
+                    ForEach(restaurant.Hours, id: \.self){ hours in
+                        Text(hours)
+                    }
+                }.padding(20)
+                Button(action:{
+                    guard let number = URL(string: "tel://" + restaurant.Phone) else { return }
+                    UIApplication.shared.open(number)
+                }){
+                    Image(systemName: "phone")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                }
+                .padding(30)
+                
             }
         }
     }
