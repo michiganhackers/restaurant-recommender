@@ -20,10 +20,14 @@ struct RestaurantListView: View {
                         } label: {
                             HStack(spacing: 20) {
                                 Image(systemName: "star")
-                                VStack {
-                                    Text(r.Name)
-                                    HStack(spacing: 5) {
-                                    }
+                                VStack(alignment: .leading, spacing: 5) {
+                                    Text(r.Name).bold()
+                                    Text(r.Phone).font(.footnote)
+                                    Text(r.Address)
+                                        .font(.footnote)
+                                    
+            
+                                   
                                     
                                 }
                             }
