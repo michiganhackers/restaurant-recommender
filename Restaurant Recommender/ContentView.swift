@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Home()
+        Text("hello")
     }
 }
 
@@ -17,38 +17,47 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Home(resList: restaurants)
     }
 }
 
 
 struct Home : View {
-    @State var search = ""
+    
+    @State private var searchItems: String = ""
+    var resList:[Restaurant]
     var columns = Array(repeating: GridItem(.flexible()), count: 2)
+    
+    init(resList: [Restaurant]) {
+        UITableViewCell.appearance().backgroundColor = .white
+        self.resList = resList
+    }
+    
     var body: some View {
         VStack{
             HStack{
-                Spacer()
                 Text("WolverEats")
                     .font(.system(size: 30, weight: .semibold))
-                    .foregroundColor(Color("maize"))
+                    .foregroundColor(Color("blue"))
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading)
                 Spacer()
-            }.padding(.top, 50).background(Color("blue"))
+            }.padding(.top, 50)
             
-                HStack{
-                    HStack{
-                        Image(systemName: "magnifyingglass")
-                            .foregroundColor(Color("blue")).font(.system(size: 18, weight: .semibold)).padding(.leading,15)
-                        TextField("Search", text: $search).padding(.horizontal,2).frame(height: UIScreen.main.bounds.height/19, alignment: .center)
-                            
-                    }.background(Color("maize")).cornerRadius(25).padding(.leading,15)
-                    
-                    Image(systemName: "line.horizontal.3.decrease.circle")
-                        .foregroundColor(Color("maize"))
-                        .font(.system(size: 33))
-                        .padding(.horizontal,5)
-                        .padding(.trailing, 8)
-                }
+//                HStack{
+//                    HStack{
+//                        Image(systemName: "magnifyingglass")
+//                            .foregroundColor(Color("blue")).font(.system(size: 18, weight: .semibold)).padding(.leading,15)
+////                        TextField("Search", text: $search).padding(.horizontal,2).frame(height: UIScreen.main.bounds.height/19, alignment: .center)
+//
+//                    }.background(Color("maize")).cornerRadius(25).padding(.leading,15)
+//
+//                    Image(systemName: "line.horizontal.3.decrease.circle")
+//                        .foregroundColor(Color("maize"))
+//                        .font(.system(size: 33))
+//                        .padding(.horizontal,5)
+//                        .padding(.trailing, 8)
+//                }
 //
 //            ScrollView(.vertical, showsIndicators: false){
 //                VStack{
@@ -66,23 +75,48 @@ struct Home : View {
 //            }
             
             
-            ScrollView(.vertical, showsIndicators: false){
-                LazyVGrid(columns: columns, spacing: 20){
-                    //change for uppercase and lowercase?
-                    ForEach(mData.filter({"\($0)".contains(search) || search.isEmpty})){ i in
-                        Text(i.title)
-                            .padding(.all, 30)
-                            .foregroundColor(.white)
-                            
-                    }
-                }
-                
+//  /Users/angelinailijevski/Desktop/restaurant-recommender/Restaurant Recommender/ModelData.swift          ScrollView(.vertical, showsIndicators: false){
+//                LazyVGrid(columns: columns, spacing: 20){
+//                    //change for uppercase and lowercase?
+//                    ForEach(mData.filter({"\($0)".contains(search) || search.isEmpty})){ i in
+//                        Text(i.title)
+//                            .padding(.all, 30)
+//                            .foregroundColor(.white)
+//
+//                    }
+//                }
+//
+//            }
+            HStack{
+                SearchBar(text: $searchItems).offset(y: -8)
+                Image(systemName: "line.horizontal.3.decrease.circle")
+                .foregroundColor(Color("blue"))
+                .font(.system(size: 25))
+                .padding(.trailing, 8)
+                .offset(y: -8)
             }
+            List() {
+                ForEach(self.resList.filter({"\($0)".contains(self.searchItems) || self.searchItems.isEmpty})) { r in
+                HStack {
+                        HStack(spacing: 20) {
+                            Image(systemName: "star")
+                                .foregroundColor(.white)
+                            VStack(alignment: .leading, spacing: 5) {
+                                Text(r.Name).bold()
+                                    .foregroundColor(.white)
+                                Text(r.Phone).font(.footnote)
+                                    .foregroundColor(.white)
+                                Text(r.Address)
+                                    .font(.footnote)
+                                    .foregroundColor(.white)
+                            }
+                        }
+                }.listRowBackground(Color("blue"))
+            }
+            }.offset(y: -16)
             
             
-            Spacer()
-            
-        }.background(Color("blue")).edgesIgnoringSafeArea(.all)// blue background
+        }.background(Color.white).edgesIgnoringSafeArea(.all)// blue background
     }
 }
 

@@ -26,9 +26,6 @@ struct RestaurantListView: View {
                                     Text(r.Address)
                                         .font(.footnote)
                                     
-            
-                                   
-                                    
                                 }
                             }
                         }
