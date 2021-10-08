@@ -7,8 +7,10 @@
 
 import CoreLocation
 
-struct Restaurant : Decodable {
-    let Id : Int
+struct Restaurant : Decodable, Identifiable {
+    
+    
+    let id : Int
     let Name: String
     let Rating : Double
     let Price : Int
