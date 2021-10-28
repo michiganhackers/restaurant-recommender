@@ -23,7 +23,7 @@ struct ContentView_Previews: PreviewProvider {
 
 
 struct Home : View {
-    
+    @State var isPresented = false
     @State private var searchItems: String = ""
     var resList:[Restaurant]
     var columns = Array(repeating: GridItem(.flexible()), count: 2)
@@ -97,6 +97,9 @@ struct Home : View {
             }
             List() {
                 ForEach(self.resList.filter({"\($0)".contains(self.searchItems) || self.searchItems.isEmpty})) { r in
+                    Button(action: {
+                        isPresented.toggle()
+                    }){
                 HStack {
                         HStack(spacing: 20) {
                             Image(systemName: "star")
@@ -112,15 +115,21 @@ struct Home : View {
                             }
                         }
                 }.listRowBackground(Color("blue"))
-            }
+                    }.sheet(isPresented: $isPresented){
+                        openView()
+                    }
             }.offset(y: -16)
             
             
         }.background(Color.white).edgesIgnoringSafeArea(.all)// blue background
-    }
+        }
 }
 
-
+struct openView : View {
+    var body: some View{
+        Text("hello")
+    }
+}
 struct MyData: Identifiable {
     var id = UUID()
     var title: String
