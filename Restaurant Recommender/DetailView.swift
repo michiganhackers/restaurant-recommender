@@ -24,7 +24,7 @@ struct DetailView: View {
                         .padding(.top, 10)
                         .font(.title)
                     HStack{
-                        RatingView(rating: Int(round(restaurant.Rating)))
+                        RatingView(rating: restaurant.Rating)
                         PriceView(price: restaurant.Price)
                             .padding(.leading, 10)
                     }

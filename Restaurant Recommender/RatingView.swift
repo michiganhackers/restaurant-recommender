@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RatingView: View {
-    var rating: Int
+    var rating: CGFloat
 
     var maximumRating = 5
 
@@ -18,27 +18,27 @@ struct RatingView: View {
     var offColor = Color.gray
     var onColor = Color.blue
     
+    func ratio(number : Int) -> CGFloat{
+        if(number > Int(floor(rating)) + 1){
+            return 0.0
+        }else if(number == Int(floor(rating)) + 1){
+            return rating.truncatingRemainder(dividingBy: 1.0)
+        }
+        return 1.0
+    }
+    
     var body: some View {
         HStack {
 
             ForEach(1..<maximumRating + 1) { number in
-                self.image(for: number)
-                    .foregroundColor(number > self.rating ? self.offColor : self.onColor)
-            }
-        }
-    }
-    
-    func image(for number: Int) -> Image {
-        if number > rating {
-            return offImage ?? onImage
-        } else {
-            return onImage
+                StarView(fillRatio: ratio(number: number))
+            }.frame(width: 30, height: 30)
         }
     }
 }
 
 struct RatingView_Previews: PreviewProvider {
     static var previews: some View {
-        RatingView(rating: 4)
+        RatingView(rating: 4.5)
     }
 }
