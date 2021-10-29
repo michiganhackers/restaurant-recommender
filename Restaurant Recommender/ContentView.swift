@@ -142,3 +142,4 @@ MyData(title: "Stray Hen"),
 MyData(title: "aMa Bistro")
 
 ]
+}

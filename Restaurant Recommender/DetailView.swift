@@ -41,6 +41,7 @@ struct DetailView: View {
                             Image(systemName: "phone")
                                 .resizable()
                                 .frame(width: 30, height: 30)
+                                .foregroundColor(Color("blue"))
                         }
                         
                         Button(action:{
@@ -50,6 +51,7 @@ struct DetailView: View {
                             Image(systemName: "location")
                                 .resizable()
                                 .frame(width: 30, height: 30)
+                                .foregroundColor(Color("blue"))
                         }.padding(.leading, 20)
                     }.padding(.top, 10)
                 }

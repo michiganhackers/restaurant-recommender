@@ -29,8 +29,8 @@ struct StarView: View {
             let width = proxy.size.width
             let height = proxy.size.height
             ZStack {
-                getImage(color: .gray, width: width, height: height)
-                getImage(color: .blue, width: width, height: height)
+                getImage(color: Color("blue"), width: width, height: height)
+                getImage(color: Color("maize"), width: width, height: height)
                     .clipShape(Rectangle().size(width: width * fillRatio, height: height))
                     
             }
