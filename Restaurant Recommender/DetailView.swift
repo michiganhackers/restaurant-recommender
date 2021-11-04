@@ -14,31 +14,51 @@ struct DetailView: View {
     
     
     var body: some View {
-//        LocationMapView(address: restaurant.Address)
         ScrollView{
             VStack(alignment: .leading){
                 LocationMapView(address: restaurant.Address).ignoresSafeArea(edges: .top)
                     .frame(height: 300)
-                Text(restaurant.Name)
-                    .padding(30)
-                    .font(.title)
-                VStack(alignment: .leading, spacing: 10){
-                    ForEach(restaurant.Hours, id: \.self){ hours in
+                Group{
+                    Text(restaurant.Name)
+                        .padding(.bottom, 10)
+                        .padding(.top, 10)
+                        .font(.title)
+                    HStack{
+                        RatingView(rating: restaurant.Rating)
+                        PriceView(price: restaurant.Price)
+                            .padding(.leading, 10)
+                    }
+                    VStack(alignment: .leading, spacing: 10){
+                        ForEach(restaurant.Hours, id: \.self){ hours in
                         Text(hours)
                     }
-                }.padding(20)
-                Button(action:{
-                    guard let number = URL(string: "tel://" + restaurant.Phone) else { return }
-                    UIApplication.shared.open(number)
-                }){
-                    Image(systemName: "phone")
-                        .resizable()
-                        .frame(width: 30, height: 30)
+                    }.padding(.top, 10)
+                    HStack{
+                        Button(action:{
+                            guard let number = URL(string: "tel://" + restaurant.Phone) else { return }
+                            UIApplication.shared.open(number)
+                        }){
+                            Image(systemName: "phone")
+                                .resizable()
+                                .frame(width: 30, height: 30)
+                                .foregroundColor(Color("blue"))
+                        }
+                        
+                        Button(action:{
+                            guard let number = URL(string: "http://maps.apple.com/?q=" + restaurant.Address) else { return }
+                            UIApplication.shared.open(number)
+                        }){
+                            Image(systemName: "location")
+                                .resizable()
+                                .frame(width: 30, height: 30)
+                                .foregroundColor(Color("blue"))
+                        }.padding(.leading, 20)
+                    }.padding(.top, 10)
                 }
-                .padding(30)
-                
+                .padding(.leading, 20)
             }
         }
+        
     }
 }
 
