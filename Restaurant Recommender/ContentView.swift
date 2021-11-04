@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("hello")
+        Home(resList: restaurants)
     }
 }
 
@@ -24,6 +24,9 @@ struct ContentView_Previews: PreviewProvider {
 
 struct Home : View {
     @State var isPresented = false
+    //anything that could affect layout of the view -- state reloads that view
+    //binding --- can be passed to other views and other views can change it
+    @State var currentR : Restaurant? = nil
     @State private var searchItems: String = ""
     var resList:[Restaurant]
     var columns = Array(repeating: GridItem(.flexible()), count: 2)
@@ -44,49 +47,7 @@ struct Home : View {
                 Spacer()
             }.padding(.top, 50)
             
-            //                HStack{
-            //                    HStack{
-            //                        Image(systemName: "magnifyingglass")
-            //                            .foregroundColor(Color("blue")).font(.system(size: 18, weight: .semibold)).padding(.leading,15)
-            ////                        TextField("Search", text: $search).padding(.horizontal,2).frame(height: UIScreen.main.bounds.height/19, alignment: .center)
-            //
-            //                    }.background(Color("maize")).cornerRadius(25).padding(.leading,15)
-            //
-            //                    Image(systemName: "line.horizontal.3.decrease.circle")
-            //                        .foregroundColor(Color("maize"))
-            //                        .font(.system(size: 33))
-            //                        .padding(.horizontal,5)
-            //                        .padding(.trailing, 8)
-            //                }
-            //
-            //            ScrollView(.vertical, showsIndicators: false){
-            //                VStack{
-            //                    HStack{
-            //                    Text("Restaurant Name").foregroundColor(Color("blue")).font(.title3).fontWeight(.semibold).padding().frame(maxWidth: .infinity, alignment: .leading)
-            //                    Spacer()
-            //
-            //                        Image(systemName: "star") //star changes to fill when favorited
-            //                            .foregroundColor(Color("maize"))
-            //                            .padding(.trailing)
-            //                            .font(.system(size:20))
-            //                    }
-            //                    Spacer()
-            //                }.frame(width: UIScreen.main.bounds.width/1.1, height: UIScreen.main.bounds.height / 5).background(Color("maize").opacity(0.4)).cornerRadius(20).padding(.top,20)
-            //            }
             
-            
-            //  /Users/angelinailijevski/Desktop/restaurant-recommender/Restaurant Recommender/ModelData.swift          ScrollView(.vertical, showsIndicators: false){
-            //                LazyVGrid(columns: columns, spacing: 20){
-            //                    //change for uppercase and lowercase?
-            //                    ForEach(mData.filter({"\($0)".contains(search) || search.isEmpty})){ i in
-            //                        Text(i.title)
-            //                            .padding(.all, 30)
-            //                            .foregroundColor(.white)
-            //
-            //                    }
-            //                }
-            //
-            //            }
             HStack{
                 SearchBar(text: $searchItems).offset(y: -8)
                 Image(systemName: "line.horizontal.3.decrease.circle")
@@ -115,13 +76,12 @@ struct Home : View {
                         }
                     }.listRowBackground(Color("blue"))
                         .onTapGesture {
-                            isPresented.toggle()
-                            
-                        }.sheet(isPresented: $isPresented){
-                            openView()
+                            currentR = r
                         }
                 }
                 
+            }.sheet(item: $currentR, onDismiss: nil){r in
+                DetailView(restaurant: r)
             }
             HStack(spacing: 50){
                 
@@ -181,4 +141,4 @@ var mData = [
     MyData(title: "aMa Bistro")
     
 ]
-}
+
