@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,8 +24,12 @@
 		FB6C469226FD487000031293 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6C469126FD487000031293 /* DetailView.swift */; };
 		FB6C469626FD4C1D00031293 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = FB6C469526FD4C1D00031293 /* restaurants.json */; };
 		FB6C469826FD4D8C00031293 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6C469726FD4D8C00031293 /* ModelData.swift */; };
+		FB83759127599E0E0083552E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FB83759027599E0E0083552E /* FirebaseAuth */; };
+		FB83759327599E0E0083552E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FB83759227599E0E0083552E /* FirebaseDatabase */; };
+		FB83759527599E6C0083552E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB83759427599E6C0083552E /* GoogleService-Info.plist */; };
+		FB83759727599EDE0083552E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83759627599EDE0083552E /* LoginView.swift */; };
 		FBFE721E2734A8D800405C36 /* UserDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBFE721C2734A8D800405C36 /* UserDataModel.xcdatamodeld */; };
-		FBFE72202734A95D00405C36 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE721F2734A95D00405C36 /* CoreDataManager.swift */; };
+		FBFE72242734ABDA00405C36 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE72232734ABDA00405C36 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +52,10 @@
 		FB6C469126FD487000031293 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		FB6C469526FD4C1D00031293 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
 		FB6C469726FD4D8C00031293 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		FB83759427599E6C0083552E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB83759627599EDE0083552E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FBFE721D2734A8D800405C36 /* UserDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserDataModel.xcdatamodel; sourceTree = "<group>"; };
-		FBFE721F2734A95D00405C36 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FBFE72232734ABDA00405C36 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB83759327599E0E0083552E /* FirebaseDatabase in Frameworks */,
+				FB83759127599E0E0083552E /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,10 +93,11 @@
 				FB6C469526FD4C1D00031293 /* restaurants.json */,
 				FB6C469726FD4D8C00031293 /* ModelData.swift */,
 				E90BFC1126F40F94007429DE /* AppDelegate.swift */,
+				FB83759627599EDE0083552E /* LoginView.swift */,
 				E90BFC1326F40F94007429DE /* SceneDelegate.swift */,
 				E90BFC1526F40F94007429DE /* ContentView.swift */,
 				FBFE721C2734A8D800405C36 /* UserDataModel.xcdatamodeld */,
-				FBFE721F2734A95D00405C36 /* CoreDataManager.swift */,
+				FBFE72232734ABDA00405C36 /* Persistence.swift */,
 				23316D9726F4162C0095974C /* Home.swift */,
 				FB6C469126FD487000031293 /* DetailView.swift */,
 				FB140006270FBD2C007B5123 /* RatingView.swift */,
@@ -97,6 +106,7 @@
 				E90BFC1726F40F97007429DE /* Assets.xcassets */,
 				E90BFC1C26F40F97007429DE /* LaunchScreen.storyboard */,
 				E90BFC1F26F40F97007429DE /* Info.plist */,
+				FB83759427599E6C0083552E /* GoogleService-Info.plist */,
 				E90BFC1926F40F97007429DE /* Preview Content */,
 				E90BFC2526F41458007429DE /* Restaurant.swift */,
 				5203B04A27068A9A000AB7A0 /* RestaurantListView.swift */,
@@ -130,6 +140,10 @@
 			dependencies = (
 			);
 			name = "Restaurant Recommender";
+			packageProductDependencies = (
+				FB83759027599E0E0083552E /* FirebaseAuth */,
+				FB83759227599E0E0083552E /* FirebaseDatabase */,
+			);
 			productName = "Restaurant Recommender";
 			productReference = E90BFC0E26F40F94007429DE /* Restaurant Recommender.app */;
 			productType = "com.apple.product-type.application";
@@ -157,6 +171,9 @@
 				Base,
 			);
 			mainGroup = E90BFC0526F40F94007429DE;
+			packageReferences = (
+				FB83758F27599E0E0083552E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E90BFC0F26F40F94007429DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -173,6 +190,7 @@
 			files = (
 				E90BFC1E26F40F97007429DE /* LaunchScreen.storyboard in Resources */,
 				FB6C469626FD4C1D00031293 /* restaurants.json in Resources */,
+				FB83759527599E6C0083552E /* GoogleService-Info.plist in Resources */,
 				E90BFC1B26F40F97007429DE /* Preview Assets.xcassets in Resources */,
 				E90BFC1826F40F97007429DE /* Assets.xcassets in Resources */,
 			);
@@ -188,17 +206,18 @@
 				E90BFC2626F41458007429DE /* Restaurant.swift in Sources */,
 				E90BFC1226F40F94007429DE /* AppDelegate.swift in Sources */,
 				E90BFC1426F40F94007429DE /* SceneDelegate.swift in Sources */,
-				FBFE72202734A95D00405C36 /* CoreDataManager.swift in Sources */,
 				FB140007270FBD2C007B5123 /* RatingView.swift in Sources */,
 				23316D9826F4162C0095974C /* Home.swift in Sources */,
 				5203B04B27068A9A000AB7A0 /* RestaurantListView.swift in Sources */,
 				FB2DCC9E2706804100FAC285 /* LocationMapView.swift in Sources */,
 				FB140009270FC1A3007B5123 /* PriceView.swift in Sources */,
 				FB6C469226FD487000031293 /* DetailView.swift in Sources */,
+				FBFE72242734ABDA00405C36 /* Persistence.swift in Sources */,
 				E952F72B270FC70600C66E17 /* StarView.swift in Sources */,
 				23958C40270FC58A00FBD295 /* SearchBar.swift in Sources */,
 				E90BFC1626F40F94007429DE /* ContentView.swift in Sources */,
 				FBFE721E2734A8D800405C36 /* UserDataModel.xcdatamodeld in Sources */,
+				FB83759727599EDE0083552E /* LoginView.swift in Sources */,
 				FB6C469826FD4D8C00031293 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +416,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB83758F27599E0E0083552E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB83759027599E0E0083552E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB83758F27599E0E0083552E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FB83759227599E0E0083552E /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB83758F27599E0E0083552E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FBFE721C2734A8D800405C36 /* UserDataModel.xcdatamodeld */ = {

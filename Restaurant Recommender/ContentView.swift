@@ -6,10 +6,14 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+    
+    let persistenceController = PersistenceController.shared
+        
     var body: some View {
-        Home(resList: restaurants)
+        Home(resList: restaurants).environment(\.managedObjectContext, persistenceController.container.viewContext)
     }
 }
 
@@ -23,6 +27,9 @@ struct ContentView_Previews: PreviewProvider {
 
 
 struct Home : View {
+    @Environment(\.scenePhase) var scenePhase
+//    @Environment(\.managedObjectContext) var managedObjectContext
+    
     @State var isPresented = false
     //anything that could affect layout of the view -- state reloads that view
     //binding --- can be passed to other views and other views can change it
@@ -35,6 +42,27 @@ struct Home : View {
         UITableViewCell.appearance().backgroundColor = .white
         self.resList = resList
     }
+    
+//    func isFaved(_ restaurantID: Int) -> Bool{
+//        @FetchRequest(
+//            entity: Favorite.entity(), sortDescriptors: [], predicate: NSPredicate(format: "restaurantID==@", restaurantID)
+//        ) var faved : FetchedResults<Favorite>
+//        return !faved.isEmpty
+//    }
+    
+//    func toggleFav(_ restaurantID: Int){
+//        if(!isFaved(restaurantID)){
+//            let favObj = Favorite();
+//            favObj.restaurantID = Int16(restaurantID);
+//        }else{
+//            @FetchRequest(
+//                entity: Favorite.entity(), sortDescriptors: [], predicate: NSPredicate(format: "restaurantID==@", restaurantID)
+//            ) var faved : FetchedResults<Favorite>
+//            managedObjectContext.delete(faved[0])
+//        }
+//
+//        PersistenceController.shared.save()
+//    }
     
     var body: some View {
         VStack{
@@ -61,8 +89,10 @@ struct Home : View {
                     
                     HStack {
                         HStack(spacing: 20) {
-                            Image(systemName: "star")
-                                .foregroundColor(.white)
+                            Button(action: {}){
+                               Image(systemName: "star")
+                                    .foregroundColor(Color("Maize"))
+                            }
                             VStack(alignment: .leading, spacing: 5) {
                                 Text(r.Name).bold()
                                     .foregroundColor(.white)
